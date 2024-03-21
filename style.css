@@ -1,0 +1,121 @@
+.mainbox {
+    width: 50%;
+    margin: 100px auto; /* Center the mainbox horizontally */
+    border: 2px solid black; /* Adjust border properties */
+    border-radius: 15px;
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding and border in total width */
+}
+
+.box .box1 {
+    text-align: center;
+    /* padding: 13px; */
+    background-color: rgb(238, 109, 238);
+    color: white;
+    border-radius: 15px;
+}
+
+.para {
+    line-height: 1.5; /* Adjust line height for better readability */
+    text-align: center;
+    font-size: large;
+}
+
+#dotted-line {
+    border: none;
+    color: rgb(238, 109, 238);
+    margin: 0 auto; /* Center the dotted line */
+    width: 50%; /* Set width relative to parent */
+}
+
+hr {
+    margin: 0 auto; /* Center the hr */
+    width: 50%;
+    border: none;
+    border-top: 3px dotted rgb(238, 109, 238);
+}
+
+.dotted-line {
+    border: none;
+    height: 0;
+    border-top: 2px dotted rgb(238, 109, 238);
+    margin: 20px auto;
+    width: 50%;
+}
+
+.meet {
+    padding-top: 10px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+  }
+
+.container2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+
+.container3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container4 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.container5{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.container6{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.box1 {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(238, 109, 238);
+    color: white;
+    margin-top: 45px;
+    border-radius: 12px;
+    font-size: medium;
+}
+
+.box2{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(238, 109, 238);
+    color: white;
+
+    border-radius: 12px;
+    font-size: medium;
+}
+
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .mainbox {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+    
+    .box, .box1 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
